@@ -1,0 +1,78 @@
+
+body {
+    background-color: rosybrown;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.linkovi{
+
+    background-color: rgb(172, 77, 77);
+    color: rgb(38, 109, 68);
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex;
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.wrapper {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact-form {
+
+    max-width: 550px;
+    margin: 0 auto;
+    background: black;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px
+
+}
+
+.input-fields {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+    width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+    margin: 15px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 5px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+.msg textarea {
+    height: 190px;
+}
+
+.btn {
+
+    background: blue;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
